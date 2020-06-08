@@ -1,0 +1,137 @@
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+*{
+	box-sizing: border-box;
+}
+.container{
+	width:90%;
+	margin:auto;
+	padding: auto;
+	overflow:hidden;
+}
+
+#main-header{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	background-color:coral;
+	color:#fff;
+	text-align: center;
+	font-weight: bold;
+	font-style: cursive;
+	font-size: 40px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.box1{
+	float: left;
+	width:32%;
+	height: 300px;
+	padding:0 20px;
+	border: 5px black solid;
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-left: 1px;
+	background-color: #993333;
+	color: #ffff99;
+	font-family: Apple Chancery, cursive;
+}
+.box2{
+	float: left;
+	width:32%;
+	height: 300px;
+	padding:0 20px;
+	border: 5px black solid;
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-left: 1px;
+	background-color: #993333;
+	color: #ffff99;
+	font-family: Apple Chancery, cursive;
+
+}
+.box3{
+	float: left;
+	width:32%;
+	height: 300px;
+	padding:0 20px;
+	border: 5px black solid;
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-left: 1px;
+	background-color: #993333;
+	color: #ffff99;
+	font-family: Apple Chancery, cursive;
+}
+#item1{
+	color: #006699;
+	text-align: right;
+	border: solid 2px black;
+	background-color: #00ff00;
+	margin-bottom: 30px;
+	padding: 3px;
+
+}
+
+#item2{
+	color: #006699;
+	text-align: right;
+	border: solid 2px black;
+	background-color: #00ff00;
+	margin-bottom: 30px;
+	padding: 3px;
+}
+#item3{
+	color: #006699;
+	text-align: right;
+	border: solid 2px black ;
+	background-color: #00ff00;
+	margin-bottom: 30px;
+	padding: 3px;
+}
+
+@media (max-width: 991px and min-width:768px  ){
+	.box1{
+		float:left;
+		width: 49%;
+		height: 900px; 
+		overflow: hidden;
+	}
+	.box2{
+		clear: left;
+		height: 900px; 
+		width: 49%;
+		overflow: hidden;
+	}
+	.box3{
+		clear: both;
+		height: 900px;
+		width: 98%; 
+		overflow: hidden;
+	}
+
+}
+@media (max-width:767px ){
+	.box1{
+		clear: both;
+		width: 95%;
+		height: 200px; 
+
+	}
+	.box2{
+		clear: both;
+		height: 200px; 
+		width: 95%;
+
+	}
+	.box3{
+		clear: both;
+		height: 200px;
+		width: 95%; 
+	}
+
+}
